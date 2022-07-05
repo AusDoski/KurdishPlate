@@ -1,2 +1,10 @@
-# odin-recipes
-Is the first project done on the odin project to put the foundation of HTML into practice.
+#KurdishPlate#
+
+Is a WIP, aimed to share recipes from the kurdish table.
+
+06 july, 2022;
+built the homepage.
+built the about page.
+
+#Credit_section
+will be added soon.

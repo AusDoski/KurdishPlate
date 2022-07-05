@@ -1,12 +1,144 @@
-h1 {
-    text-align: center;
-    font-family: Helvetica, sans-serif, Arial;
-    background-color: green;
-    color: white;
+@font-face {
+    src: url(./fonts/Harlow\ Solid\ Regular.ttf);
+    font-family: harlow;
 }
 
-img {
-    display: block;
+@font-face {
+    src: url(./fonts/Britannic\ Bold\ Regular.ttf);
+    font-family: brit;
+}
+
+/*Index.html*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.yellow {
+    background-color: #febd2e;
+    margin: 0;
+    height: 850px;
+    border-radius: 0 0 90px 90px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*Header*/
+
+.header {
+    display: flex;
+    align-items: baseline;
+    gap: 50px;
+    font-family: harlow;
+    margin: 30px 40px;
+    padding: 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    font-size: 24px;
+}
+
+.push {
     margin-left: auto;
-    margin-right: auto;
+}
+
+/*large text*/
+
+.middle_portion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.large_text {
+    font-family: brit;
+    width: 660px;
+    font-size: 92px;
+    margin: 70px 130px;
+    position: absolute;
+    z-index: 1;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 250px;
+    margin: -50px 0 0 444px;
+    position: absolute;
+    z-index: 0;
+}
+
+.eating {
+    width: 770px;
+    margin-left: auto;
+}
+
+/*bottom*/
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: brit;
+    font-size: 24px;
+}
+
+.bottom a {
+    text-decoration: underline;
+}
+
+/*About.html*/
+.about_body {
+    background-color: #FEBD2E;
+}
+
+.about_text .right {
+    font-family: brit;
+    text-align: right;
+    font-size: 92px;
+    color: white;
+    margin: 170px 90px;
+    margin-bottom: 100px;
+}
+
+.about_text .left {
+    font-family: brit;
+    font-size: 48px;
+    width: 1200px;
+    margin: 0px 90px;
+    position: absolute;
+    z-index: 1;
+}
+
+.circle_about {
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    border-radius: 500px;
+    margin: 360px 0 0 -190px;
+    position: absolute;
+    z-index: 0;
+}
+
+.footer {
+    font-family: brit;
+    font-size: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    position: relative;
+    z-index: 1;
 }
